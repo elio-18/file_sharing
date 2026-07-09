@@ -11,7 +11,7 @@
       <!-- Header -->
       <div class="header">
         <h1>Secure File Transfer System</h1>
-        <p>Week 2-3 Demo | Flask Backend with AES Encryption</p>
+        <p>Week 6 Security Hardening | Flask Backend with AES Encryption</p>
         <p id="user-status">Not logged in</p>
       </div>
 
@@ -51,7 +51,7 @@
             </div>
 
             <div class="card" style="margin-top: 20px">
-              <h3>Demo Accounts</h3>
+              <h3>Access Accounts</h3>
               <p><strong>alice</strong> / alice123</p>
               <p><strong>bob</strong> / bob123</p>
               <p><strong>admin</strong> / admin123</p>
@@ -122,8 +122,9 @@
             <div class="card">
               <h3>Upload New File</h3>
               <p>
-                Select a file to upload. It will be automatically encrypted and
-                stored in both plain and encrypted upload directories.
+                Select a file to upload. It will be encrypted and stored in both
+                plain and encrypted upload directories for secure transfer
+                testing.
               </p>
               <div class="form-group" style="margin-top: 15px">
                 <label>Select File</label>
@@ -133,11 +134,11 @@
                 <button class="btn-primary" id="btn-upload">Upload</button>
               </div>
               <p style="margin-top: 15px; font-size: 0.9em; color: #666">
-                <strong>How it works:</strong><br />
+                <strong>Workflow:</strong><br />
                 1. Select and upload a file<br />
                 2. System generates encryption key<br />
                 3. File is encrypted with AES-256<br />
-                4. Share file with others by providing them the key
+                4. Share file with others by providing the key
               </p>
             </div>
           </div>
@@ -249,7 +250,7 @@
 
       <!-- Footer -->
       <div class="footer">
-        <p>Secure File Transfer System | Week 2-3 Demo Application</p>
+        <p>Secure File Transfer System | Week 6 Security Hardening Build</p>
         <p>Python Flask Backend | AES-256 Encryption | Local File Storage</p>
         <p>
           All data is processed securely. Files are stored in plain and
